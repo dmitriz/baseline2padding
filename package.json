@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "name": "baseline2padding",
+  "main": "index.js",
+  "description": "Converts the more important but less accessible Baseline into the less important but more accessible Padding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriz"
+  },
+  "scripts": {
+    "start": "nr dev",
+    "dev": "open http://localhost:8080/ && webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "license": "MIT"
+}
