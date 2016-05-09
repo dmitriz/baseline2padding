@@ -17,9 +17,12 @@
     "font",
     "line-height",
     "rhythm",
-    "baseline", 
+    "baseline",
     "padding"
   ],
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "min-karma-webpack": "^0.2.4"
+  }
 }
