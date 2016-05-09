@@ -11,7 +11,15 @@
     "start": "nr dev",
     "dev": "open http://localhost:8080/ && webpack-dev-server"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "typography",
+    "font",
+    "line-height",
+    "rhythm",
+    "baseline", 
+    "padding"
+  ],
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT"
 }
