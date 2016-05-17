@@ -10,11 +10,7 @@ module.exports = function (config) {
     // files / glob patterns to load
     // Tip. Keep your tests next to testees for better cohesion
     files: [
-
-      // load files not exported as modules
-      'demo/add.js',
-      // load all test files inside `demo`
-      'demo/**/*_test.js'
+      'test.js'
     ],
 
     // Use Webpack to pre-process files requiring external modules:
@@ -23,7 +19,7 @@ module.exports = function (config) {
     preprocessors: {
 
       // list files as entry points for webpack
-      'demo/**/*-module_test.js': ['webpack']
+      'test.js': ['webpack']
     },
 
     // Browsers available include:

@@ -5,11 +5,12 @@
   "description": "Converts the more important but less accessible Baseline into the less important but more accessible Padding",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmitriz"
+    "url": "https://github.com/dmitriz/baseline2padding"
   },
   "scripts": {
     "start": "nr dev",
-    "dev": "open http://localhost:8080/ && webpack-dev-server"
+    "dev": "open http://localhost:8080/ && webpack-dev-server",
+    "test": "karma start"
   },
   "keywords": [
     "css",
@@ -24,5 +25,22 @@
   "license": "MIT",
   "devDependencies": {
     "min-karma-webpack": "^0.2.4"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "expect",
+      "it",
+      "beforeEach",
+      "angular",
+      "document"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/dmitriz/baseline2padding/issues"
+  },
+  "homepage": "https://github.com/dmitriz/baseline2padding#readme",
+  "dependencies": {
+    "lodash": "^4.12.0"
   }
 }
