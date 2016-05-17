@@ -41,6 +41,7 @@
   },
   "homepage": "https://github.com/dmitriz/baseline2padding#readme",
   "dependencies": {
+    "better-math": "^1.1.1",
     "lodash": "^4.12.0"
   }
 }
