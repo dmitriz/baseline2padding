@@ -24,7 +24,7 @@
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {
-    "min-karma-webpack": "0.2.5"
+    "min-karma-webpack": "1.0.2"
   },
   "standard": {
     "globals": [
