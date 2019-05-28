@@ -24,7 +24,6 @@
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {
-    "min-karma-webpack": "1.0.2"
   },
   "standard": {
     "globals": [
@@ -42,6 +41,5 @@
   "homepage": "https://github.com/dmitriz/baseline2padding#readme",
   "dependencies": {
     "better-math": "^1.1.1",
-    "lodash": "^4.12.0"
   }
 }
